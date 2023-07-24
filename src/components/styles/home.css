@@ -1,0 +1,94 @@
+.home {
+  background-color: #f5f6f7;
+  height: calc(99vh - 50px);
+}
+
+.content-options {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content-options > a {
+  text-decoration: none;
+}
+
+.content-options > a > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.content-options > a > div > p:first-child {
+  font-size: 40px;
+}
+.content-options > a > div > p {
+  text-align: center;
+  font-size: 14px;
+  color: #0076ced4;
+  transition: 0.3s;
+}
+
+.content-options > a > div:hover {
+  background-color: #0076ce;
+  transition: 0.5s;
+}
+
+.content-options > a > div:hover p {
+  color: white;
+  transition: 0.5s;
+}
+
+@media all and (max-width: 650px) {
+  .content-options {
+    width: auto;
+    max-width: 90%;
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content-options > a > div {
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .content-options {
+    max-width: 80%;
+    padding: 35px 0px;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .content-options > a > div {
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .content-options {
+    max-width: 80%;
+    padding: 30px 0px;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content-options > a > div {
+    margin: auto;
+  }
+}

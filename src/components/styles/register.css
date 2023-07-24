@@ -1,0 +1,52 @@
+.register {
+  height: calc(99vh - 50px);
+  margin: 0px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.inner-register {
+  margin: auto;
+  padding-top: 60px;
+}
+
+.otp-div {
+  margin: auto;
+  padding-top: 60px;
+}
+.otp {
+  max-width: 260px;
+  margin: 20px auto;
+}
+
+.progress-bar {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 550px) {
+  .inner-register {
+    padding-top: 40px;
+  }
+  .otp-div {
+    padding-top: 40px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .inner-register {
+    padding-top: 30px;
+  }
+  .otp-div {
+    padding-top: 30px;
+  }
+}

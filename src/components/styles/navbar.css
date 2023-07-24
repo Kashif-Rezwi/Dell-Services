@@ -1,0 +1,135 @@
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 2px solid #d2d2d2;
+  background-color: white;
+}
+
+nav {
+  text-decoration: none;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div:first-child {
+  justify-content: flex-start;
+  padding: 12px 0px;
+  cursor: pointer;
+  padding-left: 3px;
+}
+
+nav > div:first-child > img {
+  width: 50px;
+}
+
+nav > div:first-child > p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 5px;
+  color: #0076ce;
+}
+
+nav > div:nth-child(2) {
+  justify-content: flex-end;
+}
+
+nav > div:last-child {
+  display: none;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user > p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 5px;
+  color: #0076ce;
+}
+
+@media all and (max-width: 500px) {
+  nav {
+    padding: 10px;
+  }
+
+  nav > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    padding-left: 3px;
+  }
+
+  nav > div:first-child > img {
+    width: 45px;
+  }
+
+  nav > div:first-child > p {
+    margin: 0px;
+    font-size: 12px;
+    position: relative;
+    left: -0.5px;
+  }
+
+  nav > div:nth-child(2) {
+    display: none;
+  }
+
+  nav > div:last-child {
+    display: block;
+  }
+}
+
+/* DrawerRight start*/
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5px 0px;
+  position: relative;
+  top: 2px;
+}
+
+.logo > img {
+  width: 45px;
+}
+
+.logo > p {
+  margin: 0px;
+  font-size: 12px;
+  position: relative;
+  left: -0.5px;
+}
+
+.sign-in-options {
+  padding: 0px 16px;
+}
+
+.sign-in-options Button {
+  width: 100%;
+}
+
+.sign-in-options Button:first-child {
+  margin-bottom: 10px;
+}
+
+.drawer-top {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* DrawerRight end*/

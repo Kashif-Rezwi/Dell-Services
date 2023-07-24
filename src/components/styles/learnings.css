@@ -1,0 +1,10 @@
+.learings-div {
+  background-color: #f5f6f7;
+  padding: 40px 0px;
+  min-height: calc(99vh - 50px);
+}
+
+.learings-header {
+  width: 90%;
+  margin: auto;
+}
