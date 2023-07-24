@@ -1,11 +1,11 @@
 # Dell Services
 
 ## Frontend Dipleyed Link
-[link](https://dellservices.netlify.app/signin)
+[https://dellservices.netlify.app](https://dellservices.netlify.app)
 
 
 ## Backend Server 
-[link]((https://github.com/Kashif-Rezwi/Dell-Services-Server)https://github.com/Kashif-Rezwi/Dell-Services-Server)
+[https://github.com/Kashif-Rezwi/Dell-Services-Server](https://github.com/Kashif-Rezwi/Dell-Services-Server)
 
 ## Backend Dipleyed Link
-[link](https://doubtful-twill-clam.cyclic.app/)
+[https://doubtful-twill-clam.cyclic.app/](https://doubtful-twill-clam.cyclic.app/)
